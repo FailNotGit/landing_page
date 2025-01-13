@@ -1,0 +1,17 @@
+header {
+    font-family: Roboto;
+    background: #1F2937;
+    color: #F9FAF8
+}
+body{
+    font-family: Roboto;
+    margin: 0;
+}
+.quote {
+    background-color: #E5E7EB;
+
+}
+footer {
+    
+    color: #F9FAF8
+}
