@@ -1,11 +1,30 @@
-header {
-    font-family: Roboto;
-    background: #1F2937;
-    color: #F9FAF8
-}
 body{
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     margin: 0;
+}
+
+header {
+    font-family: Roboto, sans-serif;
+    background: #1F2937;
+    color: #F9FAF8;
+    height: 300px;
+}
+
+.logonav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+
 }
 .quote {
     background-color: #E5E7EB;
