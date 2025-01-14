@@ -7,13 +7,56 @@ header {
     font-family: Roboto, sans-serif;
     background: #1F2937;
     color: #F9FAF8;
-    height: 300px;
+    height: 400px;
 }
+
+
 
 .logonav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.logonav .logo {
+    font-size: 24px;
+   
+}
+
+.headercontent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.signup {
+    width: 300px;
+    height: 250px; 
+}
+
+
+.signup p, a {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.headercontent img {
+    margin: 20px;
+    height: 200px;
+    width: 400px;
+}
+
+.headercontent button{
+    background-color: #3882F6;
+    color:#F9FAF8;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: none;
+    border-radius: 5px;
 }
 
 ul {
@@ -24,12 +67,26 @@ ul {
 
 a {
     text-decoration: none;
+    
 
 }
+
+
+.cardssection {
+    height: 400px;
+
+}
+
+.cards {
+    display: flex;
+}
 .quote {
+    height: 400px;
     background-color: #E5E7EB;
 
 }
+
+
 footer {
     background: #1F2937;
     color: #F9FAF8
