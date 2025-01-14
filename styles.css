@@ -99,12 +99,33 @@ a {
     height: 400px;
     background-color: #E5E7EB;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+
+}
+
+.quote p {
+    width: 700px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote .author {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    text-align: right;
 }
 
 
 footer {
+    height: 100px;
     background: #1F2937;
-    color: #F9FAF8
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
