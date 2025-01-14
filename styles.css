@@ -106,7 +106,7 @@ a {
 }
 
 .quote p {
-    width: 700px;
+    width: 800px;
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
@@ -119,6 +119,41 @@ a {
     text-align: right;
 }
 
+.container {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupsection {
+    display: flex;
+    color:#F9FAF8;
+    background-color: #3882F6;
+    width: 800px;
+    height: 150px;
+    border-radius: 10px;
+    justify-content: center;  
+    align-items: center;
+    
+}
+
+.text {
+    margin: 20px 50px;
+    text-align: left;
+}
+
+.signupsection button {
+    width: 100px;
+    height: 30px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-color: #F9FAF8;
+    border-style: solid;
+    
+
+}
 
 footer {
     height: 100px;
